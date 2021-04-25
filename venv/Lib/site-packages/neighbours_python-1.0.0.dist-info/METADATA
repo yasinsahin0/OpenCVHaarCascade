@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: neighbours-python
+Version: 1.0.0
+Summary: A modified package from NearPy
+Home-page: UNKNOWN
+Author: CHAI Ziqi
+Author-email: chaiziqi@sjtu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: future
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: bitarray
+
+# neighbours-python Package
+
+This is a package modified from [NearPy 1.0.0](https://github.com/pixelogik/NearPy/).
+
+I removed normalization for feature vectors to make it find true neighbours when using Euclidian Distance.
+
+I upload it for my own convenience as well as for others who use NearPy in their projects.
+
+The structures and names all remain the same as NearPy. So you can use it exactly the same way as `nearpy` in your python scripts.
+
+For example, you should import this package as:
+```python
+ import nearpy 
+```
+
